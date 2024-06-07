@@ -1,0 +1,46 @@
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.enlaces {
+    display: inline;
+} 
+
+.hlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hlist li {
+    display: inline-block;
+    width: 33%;
+}
+
+.card {
+    text-align: center;
+    padding: 16px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.contact {
+    width: 100%;
+    padding: 5px;
+}
+
+.contact input {
+    width: 75%;
+}
+
+.contact textarea {
+    width: 75%;
+}
+
+.vtop {
+    vertical-align: top;
+}
