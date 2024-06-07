@@ -1,10 +1,17 @@
+@media screen and (min-widht: 320px)
+{body 
+
 .logo img {
     width: 150px;
     height: 150px;
 }
-
-.enlaces {
-    display: inline;
+.menu {
+    color: black;
+    position: sticky;
+    top: 80 px;
+    display: flex; 
+    justify-content: space-around;
+    z-index: 1;  
 } 
 
 .hlist {
@@ -20,11 +27,16 @@
 }
 
 .card {
+    display: flex; 
+    flex-flow: row wrap;
     text-align: center;
     padding: 16px;
+
 }
 
 .card img {
+    display: flex;
+    flex-flow: row wrap;
     width: 100%;
 }
 
@@ -43,4 +55,13 @@
 
 .vtop {
     vertical-align: top;
+}
+
+/*Regla de la media query para diseño responsive*/ 
+/* Mobile 
+@media only screen and (max-widht: 500px) 
+@media only screen and (min-widht: 501px) and (max-widht: 960px) 
+@media only screen and (min-widht: 961px)
+*/ 
+
 }
