@@ -1,10 +1,18 @@
-@media screen and (min-widht: 320px)
-{body 
+.wrapper {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.carousel-3 {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 
 .logo img {
     width: 150px;
     height: 150px;
 }
+
 .menu {
     color: black;
     position: sticky;
@@ -12,18 +20,6 @@
     display: flex; 
     justify-content: space-around;
     z-index: 1;  
-} 
-
-.hlist {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.hlist li {
-    display: inline-block;
-    width: 33%;
 }
 
 .card {
@@ -55,13 +51,4 @@
 
 .vtop {
     vertical-align: top;
-}
-
-/*Regla de la media query para diseño responsive*/ 
-/* Mobile 
-@media only screen and (max-widht: 500px) 
-@media only screen and (min-widht: 501px) and (max-widht: 960px) 
-@media only screen and (min-widht: 961px)
-*/ 
-
 }
