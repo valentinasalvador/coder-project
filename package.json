@@ -1,13 +1,22 @@
 {
   "scripts": {
-    "serve": "npm exec serve",
-    "watch": "sass --watch scss/style.scss css/style.css"
+    "format": "npx eslint --fix && npx stylelint --fix scss/*.scss",
+    "lint": "npx eslint && npx stylelint scss/*.scss",
+    "serve": "npx serve",
+    "watch": "npx sass --watch scss/style.scss css/style.css"
   },
   "devDependencies": {
+    "@html-eslint/eslint-plugin": "^0.25.0",
+    "@html-eslint/parser": "^0.25.0",
+    "eslint": "^9.5.0",
     "sass": "^1.77.6",
-    "serve": "^14.2.3"
+    "serve": "^14.2.3",
+    "stylelint": "^16.6.1",
+    "stylelint-config-standard": "^36.0.1",
+    "stylelint-scss": "^6.3.2"
   },
   "dependencies": {
     "bootstrap": "^5.3.3"
-  }
+  },
+  "type": "module"
 }

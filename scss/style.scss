@@ -8,7 +8,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color:rgb(221, 221, 221);
+    background-color:rgb(221 221 221);
     height: 50px;
 }
 
@@ -30,7 +30,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 2;
-
     border-bottom: solid;
     border-top: solid;
 }
@@ -38,27 +37,23 @@ header {
 header .logo {
     grid-column: 1;
     grid-row: 1 / 3;
-
     margin-bottom: auto;
     margin-top: auto;
 }
 
 header .title {
     grid-column: 2;
-
     text-align: center;
 }
 
 header .subtitle {
     grid-column: 2;
-
     text-align: center;
 }
 
 .wrapper {
   display: grid;
   grid-template-rows: auto 1fr auto;
-
   margin-top: 50px;
 }
 
@@ -92,10 +87,10 @@ header .subtitle {
 
 footer {
     border: solid;
-    background-color: rgb(221, 221, 221);
+    background-color: rgb(221 221 221);
 }
 
-.contact_me {
+.contact-me {
     list-style-type: none;
     padding-left: 0;
 }
