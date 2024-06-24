@@ -17,4 +17,11 @@ nav {
   min-height: 100%;
 }
 
+.bg-grey {
+  background-color: #fbfbfb;
+}
+.bg-grey *:not(.btn) {
+  background-color: #fbfbfb;
+}
+
 /*# sourceMappingURL=style.css.map */
